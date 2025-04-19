@@ -12,8 +12,7 @@ function showlist(){
         <p class="css-item">${todo} ${duetime}
         <button class="css-delete"
         onclick="
-        waitlist.splice(${index},1)
-        showlist();
+        deleteitem(${index})
         "
         >Delete</button>
         </p>
@@ -38,3 +37,7 @@ function adding(){
     showlist();
 }
 
+function deleteitem(index){
+    waitlist.splice(index,1);
+    showlist();
+}
