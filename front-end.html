@@ -5,15 +5,20 @@
             To-do List
         </title>
         <link rel="stylesheet" href="front-end.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     </head>
     <body>
-        <input class="css-input js-input" placeholder="Adding your To-do">
-        <input class="css-date js-date" type="date">
-        
-        <button class="css-add js-add" onclick="
-        adding();
-        ">Add</button>
+        <div class="todo-container">
+            <input type="text" class="css-input js-input" placeholder="Enter your todo">
+            <input type="date" class="css-date js-date">
+            <button class="css-add" onclick="adding()">Add</button>
+            <button class="css-sync" onclick="syncToGoogle()">
+                <i class="fas fa-sync"></i> Sync to Calendar
+            </button>
+        </div>
         <div class="css- js-show"></div>
         <script src="front-end.js"></script>
+        <script src="https://apis.google.com/js/api.js"></script>
+        <script src="https://accounts.google.com/gsi/client"></script>
     </body>
 </html>
