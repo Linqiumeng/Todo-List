@@ -1,0 +1,41 @@
+body{
+    font-family: Arial;
+    background-color: rgb(86, 84, 84);
+}
+
+.css-add{
+    background-color: rgb(148, 211, 53);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+}
+
+
+.css-input{
+    padding: 10px 30px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.css-date{
+    padding: 10px 30px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+}
+
+.css-delete{
+    background-color: rgb(219, 113, 14);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 8px;
+    border-radius: 50px;
+    border: none;
+}
+.css-item{
+    color: rgb(255, 255, 255);
+}
